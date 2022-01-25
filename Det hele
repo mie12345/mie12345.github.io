@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mie PoulsensLogbog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Mie Poulsen</a>
+            <a href="informatik.html" class="active">INF</a>
+            <a href="matematik.html">UX</a>
+            <a href="dansk.html">EASY NOTES</a>
+            <a href="engelsk.html">SCRUM OG RGB COLOR MODEL</a>
+            <a href="dotdotdot.html">JS OG DOM</a>
+            <a href="so.html">OPERATIONS AND FUNCTIONS </a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="so">
+            <div class="element left">
+                <h2>Operatorer
+                <button class="accordion">Arithmtic Operators </button>
+                <div class="panel">
+              
+                </div>
+
+                <button class="accordion">Relational Operators </button>
+                <div class="panel">
+               
+                </div>
+
+                <button class="accordion">Logical Operators </button>
+                <div class="panel">
+               
+                </div>
+
+            <button class="accordion">Ternary Operators </button>
+            <div class="panel">
+        
+            </div>
+            </div>
+
+            <div class="element left">
+                <h2>Funktioner</h2>
+                <button class="accordion">Funcions </button>
+                <div class="panel">
+                
+            
+                </div>
+
+                <button class="accordion">Funcktion, return and parameters </button>
+                <div class="panel">
+           
+                </div>
+
+                <button class="accordion">Funcktion Expression </button>
+                <div class="panel">
+               
+                    
+                </div>
+
+                <button class="accordion">Local Global, Variable default value </button>
+                <div class="panel">
+               
+                </div>
+
+                <button class="accordion">Arrow function </button>
+                <div class="panel">
+               
+                </div>
+
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
